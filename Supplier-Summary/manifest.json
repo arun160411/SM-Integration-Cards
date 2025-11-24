@@ -9,8 +9,7 @@
       "title": "{/Name}",
       "subTitle": "Supplier Profile",
       "icon": {
-        "src": "sap-icon://supplier",
-        "backgroundColor": "#5899DA"
+        "src": "sap-icon://supplier"
       },
       "status": {
         "text": "Active"
