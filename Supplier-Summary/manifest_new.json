@@ -1,0 +1,61 @@
+{
+  "sap.app": {
+    "id": "supplier.card",
+    "type": "card"
+  },
+  "sap.card": {
+    "type": "Object",
+    "header": {
+      "title": "{/Name}",
+      "subTitle": "Supplier Profile",
+      "icon": {
+        "src": "sap-icon://supplier",
+        "backgroundColor": "#5899DA"
+      },
+      "status": {
+        "text": "Active"
+      }
+    },
+    "content": {
+      "groups": [
+        {
+          "title": "General Information",
+          "items": [
+            {
+              "label": "Name",
+              "value": "{/Name}",
+              "icon": {
+                "src": "sap-icon://personnel-view",
+                "color": "#E8743B"
+              }
+            },
+            {
+              "label": "Business Name",
+              "value": "{/BusinessName}",
+              "icon": {
+                "src": "sap-icon://business-card",
+                "color": "#19A979"
+              }
+            },
+            {
+              "label": "Address",
+              "value": "{/GioRegion}",
+              "icon": {
+                "src": "sap-icon://map",
+                "color": "#ED4A7B"
+              }
+            },
+            {
+              "label": "DUNS Number",
+              "value": "{/DUNSNumber}",
+              "icon": {
+                "src": "sap-icon://number-sign",
+                "color": "#945ECF"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
